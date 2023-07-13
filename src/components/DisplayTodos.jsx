@@ -15,7 +15,7 @@ const DisplayTodos = ({ todos, delettodo }) => {
                 <Col>
                     <Card className='mt-3 shadow-sm'>
                         <Card.Body>
-                            <h3>hello.</h3>
+                            <h3 className='text-center'>Output</h3>
                             <DisplayCounts />
                             <ListGroup>
                                 {

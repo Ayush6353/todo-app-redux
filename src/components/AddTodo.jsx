@@ -29,7 +29,7 @@ const AddTodo = ({add_todo}) => {
                         <Card.Body>
                             <DisplayCounts/>
                             <Form onSubmit={handlsubmit}>
-                                <Form.Label>Todo Email</Form.Label>
+                                <Form.Label className='mt-3'>Todo Email</Form.Label>
                                 <Form.Control
                                     type='text'
                                     placeholder='Enter your Email'
